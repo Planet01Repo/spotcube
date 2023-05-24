@@ -684,7 +684,7 @@
     <p class="text-center contact-para mt-4">Press<br>press@ <b>Spoticcoin.com</b></p>
    </section> -->
     <!-- Contact Us -->
-<section>
+<section class="contact-bg">
   <div class="contact-heading3 text-center"><h2>Contact Us</h2></div>
   <div id="contact">
     <div class="contact-box">
@@ -863,6 +863,25 @@ $(document).ready(function() {
     $(this).addClass('s_round_click');
     $('.s_arrow1').toggleClass('s_arrow_rotate');
     $('.b_round1').toggleClass('b_round_back_hover');
+    return false;
+  });
+  $(s_round).on('transitionend', function() {
+    $(this).removeClass('s_round_click');
+    $(this).addClass('s_round_back');
+    return false;
+  });
+});
+$(document).ready(function() {
+  var s_round = '.s_round2';
+  $(s_round).hover(function() {
+    $('.b_round2').toggleClass('b_round_hover');
+    return false;
+  });
+  $(s_round).click(function() {
+    $('.flip_box2').toggleClass('flipped');
+    $(this).addClass('s_round_click');
+    $('.s_arrow2').toggleClass('s_arrow_rotate');
+    $('.b_round2').toggleClass('b_round_back_hover');
     return false;
   });
   $(s_round).on('transitionend', function() {
