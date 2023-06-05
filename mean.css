@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap');
+
+
+html{
+  overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding: 0;
+    /* background-color: lightblue; */
+    box-sizing: border-box;
+    /* background-image: linear-gradient(to right, rgba(5, 20, 241, 0.986), rgb(2, 3, 71)); */
+    overflow-x: hidden;
+    /* background-color: #00023a !important; */
+   list-style: none !important;
+   text-decoration: none !important;
+    font-family: 'Wix Madefor Text', sans-serif !important;
+}
+.spotcubeMean{
+    background-image: url('./images/d2L.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+}
+.mean{
+    padding-top: 150px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    width: 75%;
+  }
+  .mean p{
+    margin: 0;
+    padding: 2px;
+  }

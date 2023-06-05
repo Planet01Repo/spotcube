@@ -22,23 +22,30 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top"  id="navbar-color">
       <div class="container nav-container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="./images/logo.png" alt="logo" width="150px">
         </a>
-        <button class="navbar-toggler colapse-btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler colapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link link-spacing active" aria-current="page" href="#">Contact</a>
+          <ul class="navbar-nav mb-2 mb-lg-0 custom-margin align-items-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link link-spacing dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="ecosystem.html">Spotcube EcoSystem</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-spacing active" href="#">NFT</a>
+              <a class="nav-link link-spacing active" href="mean.html">NFT</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link-spacing active" href="#">Prices</a>
-            </li>
+         
+        
             <li class="nav-item dropdown">
               <a class="nav-link  link-spacing dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Products
@@ -50,37 +57,34 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link link-spacing dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Company
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+           
+            <li class="nav-item">
+              <a class="nav-link link-spacing active" href="#">Prices</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link link-spacing active" aria-current="page" href="#contact">Contact</a>
+            </li>
+            
             <li class="nav-item">
               <a class="nav-link link-spacing active" href="#" tabindex="-1" aria-disabled="true">Learn</a>
             </li>
-          </ul>       
+          <!-- </ul>        -->
+          <!-- <ul class="nav-margin ps-0 mb-2 mb-lg-0 d-flex align-item-center "> -->
+            <li class="nav-item-btn">
+              <a class="btn third-navbar" href="#">Buy Now</a>
+            </li>
+            <li class="nav-item-lang">
+              <a class="btn lang-icon" href="#"><i class="fa fa-globe text-light" aria-hidden="true">  ENGLISH</i></a>
+            </li>
+          </ul>
         </div>
-        <ul class="nav-margin ps-0 mb-2 mb-lg-0 d-flex align-item-center ">
-          <li class="nav-item">
-            <a class="btn third-navbar" href="#">Buy Now</a>
-          </li>
-          <li class="nav-item">
-            <a class="btn lang-icon" href="#"><i class="fa fa-globe text-light" aria-hidden="true">  ENGLISH</i></a>
-          </li>
-         </ul>
       </div>
     </nav>
   
 
 
   <!-- section main heading and timmer -->
- <section class="our-vision pt-5">
+ <section class="our-header">
   <div class="container custom-width">
     <div class="row vision-row">
       <div class="col-12  col-sm-12 col-md-6 col-lg-6">
@@ -114,26 +118,21 @@
     </div>
     </div>
   </div>
-  
-   
-   
-      <br><br>
+</section>
     
 
 
 
-      
+<section class="our-vision">  
   <!-- Our Vision -->
       <h3 class="text-center vision-heading3"  data-aos="fade-up"  data-aos-duration="2000"><b>OUR VISION</b></h3>
       
       <h2 class="text-center mt-2 vision-heading2"  data-aos="fade-up"  data-aos-duration="3000"><b>All Activities
         In One Platform</b></h2>
-        <br>
         <div class="center-div-img text-center">
           <img src="./images/Neon.png" alt="" class="center-image" width="500px">
         </div>
-        <br>
-        <div class="text-center mt-3">             
+        <div class="text-center btn-space">             
           <button class="btn third-nav">White Paper</button>
           <button class="btn third-nav">Audit</button>
         </div>  
@@ -144,27 +143,34 @@
 
  
  <!-- OUR MISSION -->
- <section class="our-mission pb-5">
+ <section class="our-mission">
     <br>
     <div class="container mission-custom">
       <div class="row mission-row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 mission-heading2">
           <h3 class="mission-heading3" data-aos="fade-right"  data-aos-duration="3000"><b>OUR MISSION</b></h3>
-            <h2 data-aos="fade-right" data-aos-duration="1000"><b>Accelerate the <br> world's 
-              transition to 3D Metaverse.</b></h2>
+            <h2 data-aos="fade-right" data-aos-duration="1000"><b>Accelerate  <br> the world's 
+              transition to 3D<br> Metaverse.</b></h2>
 
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mission-image" data-aos="fade-left" data-aos-duration="2000">
           <!-- <img src="./images/mission-green1.png" alt=""> -->
-          <img src="./images/mission-green.png" alt="">
+          <img src="./images/mission-blu.png" alt="">
         </div>
       </div>
     </div>
-    <h3 class="text-center mission-heading1 mt-5 mb-5" data-aos="fade-up"  data-aos-duration="3000"><b>How to Buy?</b></h3>
+ </section>
+
+
+
+
+
+ <section class="how-to-buy">
+    <h3 class="text-center mission-heading1" data-aos="fade-up"  data-aos-duration="3000"><b>How to Buy?</b></h3>
     <p class="text-center mission-paragraph" data-aos="fade-up"  data-aos-duration="2000">Click the BUY NOW button above and connect your wallet. Once connected,
       <br>you'll see three options to buy LHINU tokens.
     </p>
-    <br>
+ 
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-10">
@@ -206,7 +212,7 @@
        </div>
     </div>
     <br>
-    <div class="text-center mt-3 pb-5">    
+    <div class="text-center mission-btn">    
       <button class="btn third-nav">Full Help Guide</button>
     </div> 
  </section>
@@ -217,16 +223,16 @@
 
  
  <!-- solution timeline -->
-<section class="solution-bg solution-text pb-5">
-  <div class="solution-heading2 text-center pb-5"><h1>SOLUTION OVERVIEW</h1></div>
+<section class="solution-bg solution-text">
+  <div class="solution-heading2 text-center pb-5"><h1><b>SOLUTION OVERVIEW</b></h1></div>
 <div class="container text-center">
 <div class="row">
-  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="first"  style="position: relative;">
+  <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="first" style="position: relative;">
     <div class="first-heading mt-5">
       <h1>01</h1>
       <h3>The Platform</h3>
     </div> 
-    <ul>
+    <ul class="list-bullets">
       <li>Communication</li>
       <li>Shopping</li>
       <li>E-Commerce</li>
@@ -241,7 +247,7 @@
       <h1>03</h1>
     <h3>Financial Services</h3>
   </div> 
-    <ul>
+    <ul class="list-bullets">
       <li>Decentralized Wallet</li>
       <li>Visa Card</li>
     </ul>
@@ -252,7 +258,7 @@
       <h1>05</h1>
     <h3>Metaverse</h3>
     </div>
-    <ul>
+    <ul class="list-bullets">
       <li>NFT
         <ul>
           <li>Three Dimensional online store</li>
@@ -269,7 +275,7 @@
       <h1>02</h1>
     <h3>Payment</h3>
     </div>
-    <ul>
+    <ul class="list-bullets">
       <li>Spotic Paymenyt System</li>
     </ul>
     <div class="sec-img"> <img src="./images/cycle/Payment-01.png" alt=""  width="250px"> </div>
@@ -279,7 +285,7 @@
       <h1>04</h1>
     <h3>Infarstructure</h3>
     </div>
-    <ul>
+    <ul class="list-bullets">
       <li>SpotCube Chain</li>
       <li>Spottic Coin</li>
     </ul>
@@ -290,7 +296,7 @@
       <h1>06</h1>
     <h3>Security</h3>
     </div>
-    <ul>
+    <ul class="list-bullets">
       <li>SCertificates</li>
       <li>Licenses</li>
     </ul>
@@ -306,27 +312,27 @@
 
 
 
-
-
  <!-- why it matters -->
- <section class="why-matter pt-3 pb-2">
-  <div class="container pt-5">
-  <h3 class="text-center pt-5 vision-heading3" data-aos="fade-up"  data-aos-duration="3000"><b>WHY IT MATTERS</b></h3>
-  <p class="matter-para text-center mt-5 pb-5 mb-0" data-aos="fade-up"  data-aos-duration="2000">Powered by cryptocurrency, the future of the internet: Web3 will be more  flexible and useful in human life, it will be fairer <br>in providing opportunities and distributing them 
-    We believe that changing the way, we shop and work from <br>2D to 3D platforms will move our lifestyle to another dimension.
-  </p>
+ <section class="why-matter">
+  <div class="container matter-custom">
+  <!-- <h3 class="matter-heading3 text-center" data-aos="fade-up"  data-aos-duration="3000"><b>WHY IT MATTERS</b></h3> -->
+  <h3 class="matter-heading3 text-center"><b>SpotCube & SpoticCoin ecosystem</b></h3>
+  <p class="matter-para mb-0">SpotCube as a multisided network platform is a business model that connects two or more groups of users who would not normally interact with each other. The platform provides a way for these users to exchange value, and it generates revenue by charging very simple fees to one or more of the groups.</p>
+    <p class="matter-para">A Spotic Coin payment system is a critical component of SpotCube as a multisided network platform. It allows users to easily and securely exchange value, and it helps to ensure that the platform is profitable.</p>
+  <!-- <button id="showMoreBtn" class="btn why-matter-btn">Load More</button> -->
 </div>
  </section>
-
+ 
 
 
 
  
 
 
+
 <!-- road map -->
-  <section class="timeline-rm road-map pb-5">
-    <div class="road-map-heading3 text-center mt-5 pt-5 pb-5"><h3><b>Road Map</b></h3></div>
+  <section class="timeline-rm road-map">
+    <div class="road-map-heading3 text-center"><h3><b>Road Map</b></h3></div>
     <ol>
       <li class="item-list">
           <div>
@@ -458,27 +464,78 @@
 
 
 
+<!-- our Value -->
+<section class="our-values">
+  <div class="container custom-value">
+ <h3 class="text-center value-heading3 pb-4 text-light"><b>Our Values</b></h3>
+ <div class="d-flex align-items-start justify-content-center">
+  <div class="nav flex-column nav-pills me-3  tab-ver-line" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link custom-nav-link ps-4 active " id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Think Clearly</button>
+    <button class="nav-link custom-nav-link ps-4" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false">Be Resourceful</button>
+    <button class="nav-link custom-nav-link ps-4" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false">Stay Determined</button>
+    <button class="nav-link custom-nav-link ps-4" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="false">Dream Big</button>
+    <button class="nav-link custom-nav-link ps-4" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false">Take Ownership and Be Decisive</button>
+    <button class="nav-link custom-nav-link ps-4" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="false">Remain Humble</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active ver-nav-text tab-text" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-home-tab">
+      <p> The SpoticCoin team demonstrates a strong consensus-building approach through active listening and open communication. </p>
+        <p> Each team member is encouraged to bring their unique perspective and expertise to contribute towards achieving the team's goals.</p>
+        <p>They promote a collaborative and inclusive environment where all team members are empowered to contribute equally and feel valued for their contributions.</p>
+        <p>Their team thinking is characterized by well-defined roles and responsibilities, clear objectives, and effective problem-solving strategies.</p>
+    </div>
+    <div class="tab-pane fade tab-text" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+      <p> SpoticCoin's team is responsible for delivering high-quality products and services to customers.</p>
+        <p> SpoticCoin's team is responsible for delivering high-quality products and services to customers.</p>
+        <p>They are responsible for maintaining healthy work relationships and effective communication within the team.</p>
+        <p>The team is also responsible for constantly improving their skills and knowledge to ensure the company's success and growth.</p>
+    </div>
+    <div class="tab-pane fade tab-text" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+      <p>  Despite the challenges that have come their way, the company's team remains steadfastly determined to achieve its goals..</p>
+        <p> They understand that determination is the key to success and have continued to push themselves beyond their limits.</p>
+        <p>. The team has a strong work ethic and never shies away from any task, no matter how challenging it may be.</p>
+        <p>Every member of the team supports and motivates one another, fostering a culture of resilience and determination to achieve great things.</p>
+    </div>
+    <div class="tab-pane fade tab-text" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      <p> SpoticCoin team members are highly motivated individuals who passionately believe in dreaming big.</p>
+      <p> They constantly strive to achieve their goals and push their limits beyond what others may deem possible.</p>
+      <p> Collaborating with one another, they take calculated risks and boldly pursue new ventures, recognizing that the rewards can be immense.</p>
+      <p> The team's collective vision and determination are what sets them apart, inspiring them to achieve unparalleled success and continuously reach new heights.</p>
+    </div>
+    <div class="tab-pane fade tab-text" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      <p> SpoticCoin team has taken ownership of their respective responsibilities and are making informed decisions.</p>
+      <p>With a sense of ownership and autonomy, the team is actively seeking out opportunities to take charge and lead.</p>
+      <p>With a sense of ownership and autonomy, the team is actively seeking out opportunities to take charge and lead.</p>
+      <p>Taking ownership and being decisive has instilled a sense of confidence and trust in the company's team, paving the way for growth and success.</p>
+    </div>
+    <div class="tab-pane fade tab-text" id="v-pills-six" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+      <p> SpoticCoin team has taken ownership of their respective responsibilities and are making informed decisions.</p>
+      <p> With a sense of ownership and autonomy, the team is actively seeking out opportunities to take charge and lead.</p>
+      <p>The team's decisive actions have led to improved efficiencies, clear communication, and enhanced productivity.</p>
+      <p>Taking ownership and being decisive has instilled a sense of confidence and trust in the company's team, paving the way for growth and success.</p>
+    </div>
+  </div>
+</div>
+</div>
+ </section>
+
+
+
 
 
 <!-- our team -->
- <section class="our-team pb-5 pt-5">
-  <h3 class="text-center vision-heading3 pt-5"><b>OUR TEAM</b></h3>
-  <br>
+ <section class="our-team">
+  <h3 class="text-center team-heading3"><b>MEET OUR EXECUTIVE TEAM</b></h3>
   <div class="text-center our-team-text">
-  <h3>One Vision</h3>
+  <!-- <h3>One Vision</h3>
   <h3>One World</h3>
-  <h3>One Platform</h3>
-  <br>
-  <p>Building a world-changing platform is a monumental task. <br>These are the people behind it.</p>
-  <br>
-  <button class="btn third-nav">Explore Careers  <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-  <br>
-  <br>
-  <br>
-  <br>
-  <h1 class=" pb-5">MEET OUR EXECUTIVE TEAM</h1>
-  <br>
-   <div class="container pt-3">
+  <h3>One Platform</h3> -->
+  <!-- <br>
+  <p>Building a world-changing platform is a monumental task. <br>These are the people behind it.</p> -->
+  <!-- <br>
+  <button class="btn third-nav">Explore Careers  <i class="fa fa-arrow-right" aria-hidden="true"></i></button> -->
+  <!-- <h1 class=" pb-5">MEET OUR EXECUTIVE TEAM</h1> -->
+   <div class="container team-top-space">
     <div class="row cus-mar align-items-center">
       <div class="col-lg-4 col-sm-6">
         <div class='container box-container'>
@@ -545,39 +602,6 @@
       </div>
     </div>
   </div>
-  <!-- <div class="col-lg-4 col-sm-6">
-      <div class="single-box">
-          <div class="img-box">
-              <img src="./images/load_more/img1.png" alt="image" height="280px" width="300px">
-          </div>
-          <div class="body-area">
-              <h5>Teri Wise</h5>
-              <p class="designation">Creative Director</p>
-          </div>
-      </div>
-  </div>
-  <div class="col-lg-4 col-sm-6">
-      <div class="single-box">
-          <div class="img-box">
-              <img src="./images/load_more/img2.png" alt="image" height="280px" width="300px">
-          </div>
-          <div class="body-area">
-              <h5>Billy Roy</h5>
-              <p class="designation">VP of Infrastructure</p>
-          </div>
-      </div>
-  </div>
-  <div class="col-lg-4 col-sm-6">
-      <div class="single-box">
-          <div class="img-box">
-              <img src="./images/load_more/img3.png" alt="image" height="280px" width="300px">
-          </div>
-          <div class="body-area">
-              <h5>Emily Ellis</h5>
-              <p class="designation">CEO &amp; Co-founder</p>
-          </div>
-      </div>
-  </div> -->
     <div id="loadMore">
   <button class="btn third-nav">See All</button>
     </div>
@@ -593,76 +617,24 @@
 
 
 
-<!-- our Value -->
- <section class="our-values pb-5">
-  <div class="container-fluid pt-5 pb-5">
- <h3 class="text-center value-heading3 pb-4 text-light">Our Values</h3>
- <div class="d-flex align-items-start justify-content-center">
-  <div class="nav flex-column nav-pills me-3  tab-ver-line" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link custom-nav-link ps-4 active " id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Think Clearly</button>
-    <button class="nav-link custom-nav-link ps-4" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false">Be Resourceful</button>
-    <button class="nav-link custom-nav-link ps-4" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false">Stay Determined</button>
-    <button class="nav-link custom-nav-link ps-4" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="false">Dream Big</button>
-    <button class="nav-link custom-nav-link ps-4" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false">Take Ownership and Be Decisive</button>
-    <button class="nav-link custom-nav-link ps-4" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="false">Remain Humble</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active ver-nav-text tab-text" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-home-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in ourcolleagues. </p>
-        <p> We think about the message we want todeliver before we speak, and know what is important and what is not.</p>
-        <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-    <div class="tab-pane fade tab-text" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in our colleagues.</p>
-        <p> We think about the message we want to deliver before we speak, and know what is important and what is not.</p>
-        <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-    <div class="tab-pane fade tab-text" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in our colleagues.</p>
-        <p> We think about the message we want to deliver before we speak, and know what is important and what is not.</p>
-        <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-    <div class="tab-pane fade tab-text" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in our colleagues.</p>
-      <p> We think about the message we want to deliver before we speak, and know what is important and what is not.</p>
-      <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-    <div class="tab-pane fade tab-text" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in our colleagues.</p>
-      <p> We think about the message we want to deliver before we speak, and know what is important and what is not.</p>
-      <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-    <div class="tab-pane fade tab-text" id="v-pills-six" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-      <p> We consider clarity of thought to be the single most important trait we look for in our colleagues.</p>
-      <p> We think about the message we want to deliver before we speak, and know what is important and what is not.</p>
-      <p>We are concise and articulate, putting effort into making things simple and easy to understand</p>
-    </div>
-  </div>
-</div>
-</div>
- </section>
-
-
-
-
-
-
 
  <!-- Join Team -->
- <section class="join-team pt-5">
+ <section class="join-team">
   <div class="row">
+
     <div class="col-6">
-      <div class="container d-flex justify-content-end container-top">
+      <div class="container container-top">
       <div class="join-team-position">
         <h3 class="join-heading3"><b>Join Our Team</b></h3>
       <h2 class="mt-4 join-heading2"><b>Your  ambition  <br>to grow is what
         sets <br> you apart.</b></h2>
-    <div class="join-team-btn mt-3">
+    <div class="join-team-btn mt-5">
       <button class="btn third-nav">Explore Careers <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
     </div>
-  </div>
+    </div>
     </div> 
     </div>
+
     <div class="col-6"></div>
 </div>
 </section>
@@ -670,24 +642,9 @@
 
 
 
-
-
-
- <!-- Contact Us -->
-
-  <!-- <section class="contact pb-5">
-    <h3 class="text-center contact-heading3 pt-5"><b>Contact Us</b></h3>
-    <h2 class="text-center mt-4 contact-heading2">Enquiries?
-      Get in touch.</h2>
-    <p class="text-center contact-para mt-4">General<br>contact@ <b>Spoticcoin.com</b></p>
-    <p class="text-center contact-para mt-4">Regularity Inquiries<br>regularity-inquiries@ <b>Spoticcoin.com</b></p>
-    <p class="text-center contact-para mt-4">Law Enforcement Inquiries<br>lawenforcementglobal@ <b>Spoticcoin.com</b></p>
-    <p class="text-center contact-para mt-4">Law Enforcement Inquiries<br>lawenforcementglobal@ <b>Spoticcoin.com</b></p>
-    <p class="text-center contact-para mt-4">Press<br>press@ <b>Spoticcoin.com</b></p>
-   </section> -->
     <!-- Contact Us -->
 <section class="contact-bg">
-  <div class="contact-heading3 text-center"><h2>Contact Us</h2></div>
+  <div class="contact-heading3 text-center" id="contact"><h2><b>Contact Us</b></h2></div>
   <div id="contact">
     <div class="contact-box">
 
@@ -730,9 +687,9 @@
   
   
    <!-- Footer -->
-   <section class="footer pb-5">
+   <section class="footer">
     <div class="blockcode">
-      <footer class="page-footer shadow pt-5">
+      <footer class="page-footer">
         <div class="d-flex flex-column mx-auto pt-5 footer-text" style="width: 80%">
           <div class="d-flex flex-wrap justify-content-between pt-3">
             <div>
@@ -829,6 +786,21 @@
  <!-- aos script -->
  <script>
   AOS.init();
+</script>
+
+<script>
+  
+  var showMoreBtn = document.getElementById("showMoreBtn");
+  var moreText = document.getElementById("moreText");
+
+  showMoreBtn.addEventListener("click", function() {
+    moreText.classList.toggle("hidden-text");
+    if (moreText.classList.contains("hidden-text")) {
+      showMoreBtn.textContent = "Load More";
+    } else {
+      showMoreBtn.textContent = "Load Less";
+    }
+  });
 </script>
 
 
@@ -1251,7 +1223,24 @@ function pad(number) {
 }
 </script> 
 
+<script>
 
-   
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
   </body>
 </html>
