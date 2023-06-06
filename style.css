@@ -1,25 +1,72 @@
+/* 
+  @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap'); */
+@font-face {
+  font-family:'Harabara-Mais-bold';
+  src: url('./fonts/Harabara-Mais-Family/Harabara\ Mais\ Bold.otf')  format('opentype');
+}
+@font-face {
+  font-family: 'Harabara-Mais-light';
+  src: url('./fonts/Harabara-Mais-Family/Harabara\ Mais\ Light.otf')  format('opentype');
+}
+@font-face {
+  font-family: 'Harabara-Mais';
+  src: url('./fonts/Harabara-Mais-Family/Harabara\ Mais.otf')  format('opentype');
+}
+@font-face {
+  font-family:'Harabara-Mais-black';
+  src: url('./fonts/Harabara-Mais-Family/Harabara\ Mais\ Black.otf')  format('opentype');
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family:'argentum-sans';
+  src: url('./fonts/argentum-sans/ArgentumSans-Black.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'argentum-sans-bold';
+  src: url('./fonts/argentum-sans/ArgentumSans-Bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'argentum-sans-light';
+  src: url('./fonts/argentum-sans/ArgentumSans-Light.ttf')  format('truetype');
+}
+@font-face {
+  font-family:'argentum-sans-extralight';
+  src: url('./fonts/argentum-sans/ArgentumSans-ExtraLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family:'argentum-sans-regular';
+  src: url('./fonts/argentum-sans/ArgentumSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family:'argentum-sans-medium';
+  src: url('./fonts/argentum-sans/ArgentumSans-Medium.ttf')  format('truetype');
+}
+@font-face {
+  font-family:'argentum-sans-thin';
+  src: url('./fonts/argentum-sans/ArgentumSans-Thin.ttf')  format('truetype');
+}
+@font-face {
+  font-family:'argentum-sans-semibold';
+  src: url('./fonts/argentum-sans/ArgentumSans-SemiBold.ttf')  format('truetype');
+}
 
 
+*{
+  box-sizing: border-box;
+}
 html{
   overflow-x: hidden;
 }
 body{
     margin:0;
     padding: 0;
-    /* background-color: lightblue; */
     box-sizing: border-box;
-    /* background-image: linear-gradient(to right, rgba(5, 20, 241, 0.986), rgb(2, 3, 71)); */
     overflow-x: hidden;
-    /* background-color: #00023a !important; */
-   list-style: none !important;
-   text-decoration: none !important;
-    font-family: 'Wix Madefor Text', sans-serif !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    /* font-family: unset !important; */
 }
-
-
-
 
 
 
@@ -38,7 +85,7 @@ background-color: #000278 !important;
     width: 100%;
 }
 .navbar-nav{
-  font-size: 18px;
+  font-size: 17px;
 }
 /* .navbar-nav .nav-item{
   padding: 10px;
@@ -57,6 +104,10 @@ background-color: #000278 !important;
 }
 .link-spacing{
   padding-right: 12px !important;
+  font-family:'Harabara-Mais-light'!important;
+}
+.link-spacing ul li a{
+  font-family:'Harabara-Mais-light'!important;
 }
  .third-navbar{
   box-shadow: 0 0 10px 0 #0391e4 inset, 0 0 10px 4px #0391e4;
@@ -74,14 +125,33 @@ list-style: none;
 .nav-item-btn{
   padding-left: 22px;
 }
+a
+.btn.third-navbar{
+  font-family:'Harabara-Mais-light'!important;
+  font-size: 12px;
+}
 .nav-item-lang{
   padding-left: 22px;
 }
 .custom-margin{
   margin-left: 130px;
 }
-
-
+.nav-item-lang a .font-change {
+  font-size: 14px;
+}
+.custom-margin a.link-spacing{
+opacity: 0.6;
+}
+.custom-margin a.link-spacing:hover{
+  opacity: 1;
+}
+a.dropdown-custom{
+  font-family:'Harabara-Mais-light'!important;
+}
+.font-change{
+  font-family:'Harabara-Mais'!important;
+  font-size: 17px;
+}
 
 
 
@@ -208,6 +278,7 @@ backdrop-filter: blur(5.4px);
   }
 }
 
+
 /* progress bar in timmer */
 
 .w3-container{
@@ -229,6 +300,109 @@ backdrop-filter: blur(5.4px);
   font-size: 11px;
   padding-left: 8px;
 }
+
+/* down arrow */
+.arrow-img{
+  position:absolute;
+  top: 10px;
+  left: 741px;
+}
+.arrow-img img{
+  position: relative;
+  top: 0px;
+  animation: MoveUpDown11 2.5s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+.arrow-img-how{
+  position:absolute;
+  top: 6px;
+  left: 741px;
+}
+.arrow-img-how img{
+  position: relative;
+  top: 0px;
+  animation: MoveUpDown11 2.5s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+.arrow-img-sol{
+  position:absolute;
+  top: 140px;
+  left: 741px;
+}
+.arrow-img-sol img{
+  position: relative;
+  top: 0px;
+  animation: MoveUpDown11 2.5s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+.arrow-img-value{
+  position:absolute;
+  top: -66px;
+  left: 741px;
+}
+.arrow-img-value img{
+  position: relative;
+  top: 0px;
+  animation: MoveUpDown11 2.5s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+
+
+
+
+
 
 
 
@@ -253,8 +427,10 @@ backdrop-filter: blur(5.4px);
   padding-top: 150px;
 }
 .vision-heading1{
-    font-size: 64px;
+    font-size: 70px;
     color: white;
+    font-family: 'Harabara-Mais-bold';
+    line-height: 1.1;
 }
 .vision-heading3{
   color: #0391e4;
@@ -262,14 +438,17 @@ backdrop-filter: blur(5.4px);
     font-size: 40px;
     padding-top: 90px;
     text-transform: uppercase;
+    font-family: 'Harabara-Mais-bold';
 }
 .vision-heading3 p{
   font-size: 25px;
+  
 }
 .vision-heading2{
     color: white;
     font-size: 40px;
     padding-top: 25px;
+    font-family:'argentum-sans';
 }
 .center-div-img .center-image{
   position: relative;
@@ -911,6 +1090,7 @@ font-size: 90px;
 }
 button.btn.third-nav{
   font-size: 12px;
+  font-family:'Harabara-Mais-light'!important;
 }
 
 
@@ -1440,9 +1620,12 @@ height: 200px;
 }
 .tab-text{
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 10px;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
 }
+
 .our-values .value-heading3{
 /* color:rgb(255, 255, 255) !important; */
 color: #0391e4 !important;
@@ -1528,9 +1711,9 @@ text-transform: uppercase;
     .contact-heading3 h2{
       color: #0391e4;
       text-shadow: 0 0 22px #0099f1;
-   font-size: 40px !important;
-   text-transform: uppercase;
-   padding-top: 80px;
+      font-size: 40px !important;
+      text-transform: uppercase;
+      padding-top: 80px;
     }
     .contact-heading2{
       color: white;
