@@ -22,7 +22,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top"  id="navbar-color">
       <div class="container nav-container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" target="_blank" href="index.html">
           <img src="./images/logo.png" alt="logo" width="150px">
         </a>
         <button class="navbar-toggler colapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,14 +35,14 @@
                 Company
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ecosystem.html">Spotcube EcoSystem</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item dropdown-custom" target="_blank" href="ecosystem.html">Ecosystem</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#">Something else here</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-spacing active" href="mean.html">NFT</a>
+              <a class="nav-link link-spacing active" target="_blank" href="mean.html">NFT??</a>
             </li>
          
         
@@ -51,10 +51,10 @@
                 Products
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#">Action</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#">Something else here</a></li>
               </ul>
             </li>
            
@@ -74,13 +74,15 @@
               <a class="btn third-navbar" href="#">Buy Now</a>
             </li>
             <li class="nav-item-lang">
-              <a class="btn lang-icon" href="#"><i class="fa fa-globe text-light" aria-hidden="true">  ENGLISH</i></a>
+              <a class="btn lang-icon" href="#"><i class="fa fa-globe text-light" aria-hidden="true"> <span class="font-change">ENGLISH</span> </i></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   
+
+
 
 
   <!-- section main heading and timmer -->
@@ -118,14 +120,21 @@
     </div>
     </div>
   </div>
+    <div class="arrow" style="position: relative;">
+    <a href="#section-1"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+    </div>
+  </div>
 </section>
+
     
+
+
 
 
 
 <section class="our-vision">  
   <!-- Our Vision -->
-      <h3 class="text-center vision-heading3"  data-aos="fade-up"  data-aos-duration="2000"><b>OUR VISION</b></h3>
+      <h3 class="text-center vision-heading3" id="section-1" data-aos="fade-up"  data-aos-duration="2000"><b>OUR VISION</b></h3>
       
       <h2 class="text-center mt-2 vision-heading2"  data-aos="fade-up"  data-aos-duration="3000"><b>All Activities
         In One Platform</b></h2>
@@ -136,14 +145,19 @@
           <button class="btn third-nav">White Paper</button>
           <button class="btn third-nav">Audit</button>
         </div>  
+        <div class="arrow" style="position: relative;">
+          <a href="#section-2"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+          </div>
+        </div>
  </section>
+
 
 
 
 
  
  <!-- OUR MISSION -->
- <section class="our-mission">
+ <section class="our-mission" id="section-2">
     <br>
     <div class="container mission-custom">
       <div class="row mission-row">
@@ -159,13 +173,19 @@
         </div>
       </div>
     </div>
+    <div class="arrow" style="position: relative;">
+      <a href="#section-3"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      </div>
+    </div>
  </section>
 
 
 
 
 
- <section class="how-to-buy">
+
+
+ <section class="how-to-buy" id="section-3">
     <h3 class="text-center mission-heading1" data-aos="fade-up"  data-aos-duration="3000"><b>How to Buy?</b></h3>
     <p class="text-center mission-paragraph" data-aos="fade-up"  data-aos-duration="2000">Click the BUY NOW button above and connect your wallet. Once connected,
       <br>you'll see three options to buy LHINU tokens.
@@ -215,7 +235,12 @@
     <div class="text-center mission-btn">    
       <button class="btn third-nav">Full Help Guide</button>
     </div> 
+    <div class="arrow" style="position: relative;">
+      <a href="#section-4"><div class="arrow-img-how"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      </div>
+    </div>
  </section>
+
 
 
 
@@ -223,7 +248,7 @@
 
  
  <!-- solution timeline -->
-<section class="solution-bg solution-text">
+<section class="solution-bg solution-text" id="section-4">
   <div class="solution-heading2 text-center pb-5"><h1><b>SOLUTION OVERVIEW</b></h1></div>
 <div class="container text-center">
 <div class="row">
@@ -304,6 +329,10 @@
   </div>
 </div>
 </div>
+<div class="arrow" style="position: relative;">
+  <a href="#section-5"><div class="arrow-img-sol"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
+</div>
 </section>
 
 
@@ -311,27 +340,28 @@
 
 
 
-
  <!-- why it matters -->
- <section class="why-matter">
+ <section class="why-matter" id="section-5">
   <div class="container matter-custom">
   <!-- <h3 class="matter-heading3 text-center" data-aos="fade-up"  data-aos-duration="3000"><b>WHY IT MATTERS</b></h3> -->
-  <h3 class="matter-heading3 text-center"><b>SpotCube & SpoticCoin ecosystem</b></h3>
-  <p class="matter-para mb-0">SpotCube as a multisided network platform is a business model that connects two or more groups of users who would not normally interact with each other. The platform provides a way for these users to exchange value, and it generates revenue by charging very simple fees to one or more of the groups.</p>
-    <p class="matter-para">A Spotic Coin payment system is a critical component of SpotCube as a multisided network platform. It allows users to easily and securely exchange value, and it helps to ensure that the platform is profitable.</p>
+  <h3 class="matter-heading3 text-center" data-aos="fade-up"  data-aos-duration="3000"><b>ECOSYSTEM</b></h3>
+  <p class="matter-para mb-0" data-aos="fade-up"  data-aos-duration="2000">SpotCube as a multisided network platform is a business model that connects two or more groups of users who would not normally interact with each other. The platform provides a way for these users to exchange value, and it generates revenue by charging very simple fees to one or more of the groups.</p>
+    <p class="matter-para" data-aos="fade-up"  data-aos-duration="2000">A Spotic Coin payment system is a critical component of SpotCube as a multisided network platform. It allows users to easily and securely exchange value, and it helps to ensure that the platform is profitable.</p>
   <!-- <button id="showMoreBtn" class="btn why-matter-btn">Load More</button> -->
+</div>
+<div class="arrow" style="position: relative;">
+  <a href="#section-6"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
 </div>
  </section>
  
-
-
 
  
 
 
 
 <!-- road map -->
-  <section class="timeline-rm road-map">
+  <section class="timeline-rm road-map" id="section-6">
     <div class="road-map-heading3 text-center"><h3><b>Road Map</b></h3></div>
     <ol>
       <li class="item-list">
@@ -459,13 +489,19 @@
         <img src="./images/arrow-prev.png" alt="next timeline arrow">
       </button>
     </div>
+    <div class="arrow" style="position: relative;">
+      <a href="#section-7"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      </div>
+    </div>
 </section>
 
 
 
 
+
+
 <!-- our Value -->
-<section class="our-values">
+<section class="our-values" id="section-7">
   <div class="container custom-value">
  <h3 class="text-center value-heading3 pb-4 text-light"><b>Our Values</b></h3>
  <div class="d-flex align-items-start justify-content-center">
@@ -493,7 +529,7 @@
     <div class="tab-pane fade tab-text" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-messages-tab">
       <p>  Despite the challenges that have come their way, the company's team remains steadfastly determined to achieve its goals..</p>
         <p> They understand that determination is the key to success and have continued to push themselves beyond their limits.</p>
-        <p>. The team has a strong work ethic and never shies away from any task, no matter how challenging it may be.</p>
+        <p> The team has a strong work ethic and never shies away from any task, no matter how challenging it may be.</p>
         <p>Every member of the team supports and motivates one another, fostering a culture of resilience and determination to achieve great things.</p>
     </div>
     <div class="tab-pane fade tab-text" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-settings-tab">
@@ -517,6 +553,10 @@
   </div>
 </div>
 </div>
+<div class="arrow" style="position: relative;">
+  <a href="#section-8"><div class="arrow-img-value"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
+</div>
  </section>
 
 
@@ -524,7 +564,7 @@
 
 
 <!-- our team -->
- <section class="our-team">
+ <section class="our-team" id="section-8">
   <h3 class="text-center team-heading3"><b>MEET OUR EXECUTIVE TEAM</b></h3>
   <div class="text-center our-team-text">
   <!-- <h3>One Vision</h3>
@@ -611,6 +651,10 @@
 <!-- <div class="seperate-team">
   <hr class="line"> 
  </div>  -->
+ <div class="arrow" style="position: relative;">
+  <a href="#section-9"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
+</div>
 </section>
 
 
@@ -619,7 +663,7 @@
 
 
  <!-- Join Team -->
- <section class="join-team">
+ <section class="join-team" id="section-9">
   <div class="row">
 
     <div class="col-6">
@@ -637,13 +681,17 @@
 
     <div class="col-6"></div>
 </div>
+<div class="arrow" style="position: relative;">
+  <a href="#section-10"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
+</div>
 </section>
 
 
 
 
     <!-- Contact Us -->
-<section class="contact-bg">
+<section class="contact-bg" id="section-10">
   <div class="contact-heading3 text-center" id="contact"><h2><b>Contact Us</b></h2></div>
   <div id="contact">
     <div class="contact-box">
@@ -772,6 +820,9 @@
     </div>
    </section>
 
+
+
+
     <!-- seperate-timeline -->
  <script src="https://kit.fontawesome.com/fc596df623.js" crossorigin="anonymous"></script>
 
@@ -782,6 +833,8 @@
   
  <!-- aos Js Link -->
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
 
  <!-- aos script -->
  <script>
