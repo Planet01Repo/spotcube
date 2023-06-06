@@ -14,7 +14,7 @@ body{
 }
 
 .spotcubeMean{
-    background-image: url('./images/text-bg.png');
+    background-image: url('./images/text-bg1.png');
     background-position: center;
     background-size: cover;
     padding-top: 60px;
@@ -33,4 +33,64 @@ body{
   }
 .para-space{
   padding-bottom: 10px !important;
+}
+.img1 img{
+  width: 200px;
+}
+.img1 img{
+  animation: ripple2Ani 4s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+.img2 img{
+  width: 200px;
+}
+.img2 img{
+  animation: ripple2Ani 4s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
+}
+.img3 img{
+  width: 200px;
+}
+.img3 img{
+  animation: ripple2Ani 4s linear infinite;
+}
+@keyframes ripple2Ani {
+0% {
+  transform: translate(0px, 0px);
+}
+33% {
+  transform: translate(-5px, -5px);
+}
+66% {
+  transform: translate(5px, 5px);
+}
+100% {
+  transform: translate(0px, 0px);
+}
 }
