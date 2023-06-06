@@ -80,7 +80,7 @@ background-color: #000278 !important;
   }
  */
 #navbar-color{
-  height: 120px;
+  height: 90px;
     position: fixed;
     width: 100%;
 }
@@ -138,6 +138,7 @@ a
 }
 .nav-item-lang a .font-change {
   font-size: 14px;
+  letter-spacing: 1px;
 }
 .custom-margin a.link-spacing{
 opacity: 0.6;
