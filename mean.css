@@ -94,3 +94,6 @@ body{
   transform: translate(0px, 0px);
 }
 }
+.content-text{
+  line-height: 1.3;
+}
