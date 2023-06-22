@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,35 +20,39 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top"  id="navbar-color">
+    <nav class="navbar navbar-expand-xl navbar-dark navbar-bg fixed-top"  id="navbar-color">
       <div class="container nav-container">
-        <a class="navbar-brand" target="_blank" href="index.html">
+        <a class="navbar-brand nav-logo" target="_blank" href="index.html">
           <img src="./images/logo.png" alt="logo" width="150px">
         </a>
         <button class="navbar-toggler colapse-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0 custom-margin align-items-center">
+          <ul class="navbar-nav nav-links mb-2 mb-lg-0 custom-margin align-items-center">
             <li class="nav-item dropdown">
-              <a class="nav-link link-spacing dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Company
+              <a class="nav-link link-spacing dropdown-toggle active"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                SpotCube Network
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item dropdown-custom" target="_blank" href="ecosystem.html">Ecosystem</a></li>
-                <li><a class="dropdown-item dropdown-custom" href="#">Another action</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="#section-4">Solution Overview</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item dropdown-custom" href="#">Something else here</a></li>
+                <li><a class="dropdown-item dropdown-custom" href="mean.html">What does it mean</a></li>
               </ul>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link link-spacing active" target="_blank" href="mean.html">NFT??</a>
+              <a class="nav-link link-spacing active"  href="wallet.html">The Wallet</a>
             </li>
-         
-        
+
+            <li class="nav-item">
+              <a class="nav-link link-spacing active"  href="#">Our Vision</a>
+            </li>
+                
             <li class="nav-item dropdown">
               <a class="nav-link  link-spacing dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Products
+                Our Mission
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item dropdown-custom" href="#">Action</a></li>
@@ -59,14 +63,11 @@
             </li>
            
             <li class="nav-item">
-              <a class="nav-link link-spacing active" href="#">Prices</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link link-spacing active" aria-current="page" href="#contact">Contact</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link link-spacing active" href="#" tabindex="-1" aria-disabled="true">Learn</a>
+              <a class="nav-link link-spacing active" href="#" tabindex="-1" aria-disabled="true">How to buy?</a>
             </li>
           <!-- </ul>        -->
           <!-- <ul class="nav-margin ps-0 mb-2 mb-lg-0 d-flex align-item-center "> -->
@@ -121,7 +122,7 @@
     </div>
   </div>
     <div class="arrow" style="position: relative;">
-    <a href="#section-1"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+    <a href="#" class="scroll-arrow" data-target="#section-1"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
     </div>
   </div>
 </section>
@@ -132,21 +133,23 @@
 
 
 
-<section class="our-vision">  
-  <!-- Our Vision -->
-      <h3 class="text-center vision-heading3" id="section-1" data-aos="fade-up"  data-aos-duration="2000"><b>OUR VISION</b></h3>
-      
-      <h2 class="text-center mt-2 vision-heading2"  data-aos="fade-up"  data-aos-duration="3000"><b>All Activities
+<!-- Our Vision -->
+<section class="our-vision" id="section-1">  
+      <h3 class="text-center vision-heading3" id="section-1" data-aos="fade-up"  data-aos-duration="2000"><b>OUR VISION</b></h3>      
+      <h2 class="text-center vision-heading2"  data-aos="fade-up"  data-aos-duration="3000"><b>All Activities
         In One Platform</b></h2>
+      <p class="vision-para2">Building a platform with multiple options to meet the needs of different users by providing decentralized 
+        services to raise the level of security, reduce costs, facilitate and speed up operations, and provide an 
+        infinite number of economic opportunities for individuals that have an impact on overall economic growth.</p>
         <div class="center-div-img text-center">
-          <img src="./images/Neon.png" alt="" class="center-image" width="500px">
+          <img src="./images/Neon.png" alt="" class="center-image">
         </div>
         <div class="text-center btn-space">             
           <button class="btn third-nav">White Paper</button>
           <button class="btn third-nav">Audit</button>
         </div>  
         <div class="arrow" style="position: relative;">
-          <a href="#section-2"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+          <a href="#" class="scroll-arrow" data-target="#section-2"><div class="arrow-img-vision"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
           </div>
         </div>
  </section>
@@ -158,23 +161,24 @@
  
  <!-- OUR MISSION -->
  <section class="our-mission" id="section-2">
+  <h3 class="mission-heading3 text-center" data-aos="fade-right"  data-aos-duration="3000"><b>OUR MISSION</b></h3>
     <br>
-    <div class="container mission-custom">
+    <div class="container mission-custom">    
       <div class="row mission-row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 mission-heading2">
-          <h3 class="mission-heading3" data-aos="fade-right"  data-aos-duration="3000"><b>OUR MISSION</b></h3>
+      
             <h2 data-aos="fade-right" data-aos-duration="1000"><b>Accelerate  <br> the world's 
               transition to 3D<br> Metaverse.</b></h2>
 
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mission-image" data-aos="fade-left" data-aos-duration="2000">
           <!-- <img src="./images/mission-green1.png" alt=""> -->
-          <img src="./images/mission-blu.png" alt="">
+          <img src="./images/mission-img.png" alt="">
         </div>
       </div>
     </div>
     <div class="arrow" style="position: relative;">
-      <a href="#section-3"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      <a href="#section-3" class="scroll-arrow" data-target="#section-3"><div class="arrow-img-mission"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
       </div>
     </div>
  </section>
@@ -184,18 +188,17 @@
 
 
 
-
+<!-- How to Buy -->
  <section class="how-to-buy" id="section-3">
-    <h3 class="text-center mission-heading1" data-aos="fade-up"  data-aos-duration="3000"><b>How to Buy?</b></h3>
-    <p class="text-center mission-paragraph" data-aos="fade-up"  data-aos-duration="2000">Click the BUY NOW button above and connect your wallet. Once connected,
-      <br>you'll see three options to buy LHINU tokens.
+    <h3 class="text-center buy-customize" data-aos="fade-up"  data-aos-duration="3000"><b>How to Buy?</b></h3>
+    <p class="buy-paragraph" data-aos="fade-up"  data-aos-duration="2000">Click the BUY NOW button above and connect your wallet. Once connected,
+      you'll see three options to buy LHINU tokens.
     </p>
- 
     <div class="container">
-      <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center buy-customize-row">
         <div class="col-10">
           <div class="row">
-              <div class="col-lg-6 col-md-12 ">
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
                   <div class="cardPlayToEarn">
                       <h4>1. Buy LINHU with ETH/BNB</h4>
                       <div class="cardPlayToEarnImg">
@@ -211,7 +214,7 @@
                       </div>
                   </div>
               </div>
-              <div class="col-lg-6 col-md-12">
+              <div class="col-12 col-lg-6 col-md-6 col-sm-12">
                   <div class="cardPlayToEarn">
                       <h4>2. Buy LINHU with USDT</h4>
                       <div class="cardPlayToEarnImg">
@@ -222,7 +225,6 @@
                       <div class="cardPlayToEarnBtn">
                           <a href="#" target="_blank">
                             <button class="btn third-nav">Buy Now</button>
-
                           </a>
                       </div>
                   </div>
@@ -236,7 +238,7 @@
       <button class="btn third-nav">Full Help Guide</button>
     </div> 
     <div class="arrow" style="position: relative;">
-      <a href="#section-4"><div class="arrow-img-how"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      <a href="#section-4" class="scroll-arrow" data-target="#section-4"><div class="arrow-img-how"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
       </div>
     </div>
  </section>
@@ -245,13 +247,12 @@
 
 
 
-
  
  <!-- solution timeline -->
 <section class="solution-bg solution-text" id="section-4">
-  <div class="solution-heading2 text-center pb-5"><h1><b>SOLUTION OVERVIEW</b></h1></div>
-<div class="container text-center">
-<div class="row">
+  <div class="solution-heading2 text-center"><h1><b>SOLUTION OVERVIEW</b></h1></div>
+  <div class="container text-center custom-solution">
+  <div class="row">
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="first" style="position: relative;">
     <div class="first-heading mt-5">
       <h1>01</h1>
@@ -265,7 +266,7 @@
       <li>Marketing</li>
       <li>Events Consulting</li>
     </ul>
-    <div class="first-img"> <img src="./images/cycle/platform-01.png" alt="" width="250px"> </div>
+    <div class="first-img"> <img src="./images/cycle/platform-01.png" alt=""> </div>
   </div>
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="second" style="position: relative;">
     <div class="first-heading mt-5">
@@ -276,7 +277,7 @@
       <li>Decentralized Wallet</li>
       <li>Visa Card</li>
     </ul>
-    <div class="third-img"> <img src="./images/cycle/Financial Services-01.png" alt=""  width="250px"> </div>
+    <div class="third-img"> <img src="./images/cycle/Financial Services-01.png" alt=""> </div>
   </div>
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="third" style="position: relative;">
     <div class="first-heading mt-5">
@@ -293,7 +294,7 @@
         </ul>
       </li>
     </ul>
-    <div class="fifth-img"> <img src="./images/cycle/Metaverse-01.png" alt=""  width="250px"> </div>
+    <div class="fifth-img"> <img src="./images/cycle/Metaverse-01.png" alt=""> </div>
   </div>
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="four" style="position: relative;">
     <div class="first-heading mt-5">
@@ -303,7 +304,7 @@
     <ul class="list-bullets">
       <li>Spotic Paymenyt System</li>
     </ul>
-    <div class="sec-img"> <img src="./images/cycle/Payment-01.png" alt=""  width="250px"> </div>
+    <div class="sec-img"> <img src="./images/cycle/Payment-01.png" alt=""> </div>
   </div>
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="five" style="position: relative;">
     <div class="first-heading mt-5">
@@ -314,7 +315,7 @@
       <li>SpotCube Chain</li>
       <li>Spottic Coin</li>
     </ul>
-    <div class="forth-img"> <img src="./images/cycle/Infrastructure-01.png" alt=""  width="250px"> </div>
+    <div class="forth-img"> <img src="./images/cycle/Infrastructure-01.png" alt=""> </div>
   </div>
   <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" id="six" style="position: relative;">
     <div class="first-heading mt-5">
@@ -325,12 +326,18 @@
       <li>SCertificates</li>
       <li>Licenses</li>
     </ul>
-    <div class="sixth-img"> <img src="./images/cycle/Security-01.png" alt=""  width="250px"> </div>
+    <div class="sixth-img"> <img src="./images/cycle/Security-01.png" alt=""> </div>
   </div>
 </div>
+<div class="solotion-btn">
+  <a href="#" target="_blank">
+    <button class="btn third-nav">More Details</button>
+  </a>
 </div>
+</div>
+
 <div class="arrow" style="position: relative;">
-  <a href="#section-5"><div class="arrow-img-sol"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  <a href="#section-5" class="scroll-arrow" data-target="#section-5"><div class="arrow-img-sol"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
   </div>
 </div>
 </section>
@@ -340,19 +347,21 @@
 
 
 
- <!-- why it matters -->
+ <!-- Eco System -->
  <section class="why-matter" id="section-5">
   <div class="container matter-custom">
-  <!-- <h3 class="matter-heading3 text-center" data-aos="fade-up"  data-aos-duration="3000"><b>WHY IT MATTERS</b></h3> -->
   <h3 class="matter-heading3 text-center" data-aos="fade-up"  data-aos-duration="3000"><b>ECOSYSTEM</b></h3>
-  <p class="matter-para mb-0" data-aos="fade-up"  data-aos-duration="2000">SpotCube as a multisided network platform is a business model that connects two or more groups of users who would not normally interact with each other. The platform provides a way for these users to exchange value, and it generates revenue by charging very simple fees to one or more of the groups.</p>
-    <p class="matter-para" data-aos="fade-up"  data-aos-duration="2000">A Spotic Coin payment system is a critical component of SpotCube as a multisided network platform. It allows users to easily and securely exchange value, and it helps to ensure that the platform is profitable.</p>
-  <!-- <button id="showMoreBtn" class="btn why-matter-btn">Load More</button> -->
-</div>
-<div class="arrow" style="position: relative;">
-  <a href="#section-6"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  <p class="matter-para " data-aos="fade-up"  data-aos-duration="2000">SpotCube as a multisided network platform is a business model that connects two or more groups of users who would not normally interact with each other. The platform provides a way for these users to exchange value,
+    and it generates revenue by charging very simple fees to one or more of the groups. <br>
+   A Spotic Coin payment system is a critical component of SpotCube as a multisided network platform. It allows users to easily and securely exchange value, and it helps to ensure that the platform is profitable.</p>
   </div>
-</div>
+  <div class="text-center eco-btn">    
+    <button class="btn third-nav">Read More</button>
+  </div> 
+  <div class="arrow" style="position: relative;">
+  <a href="#section-6" class="scroll-arrow" data-target="#section-6"><div class="arrow-img-matter"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  </div>
+  </div>
  </section>
  
 
@@ -490,7 +499,7 @@
       </button>
     </div>
     <div class="arrow" style="position: relative;">
-      <a href="#section-7"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+      <a href="#section-7" class="scroll-arrow" data-target="#section-7"><div class="arrow-img-road"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
       </div>
     </div>
 </section>
@@ -503,8 +512,8 @@
 <!-- our Value -->
 <section class="our-values" id="section-7">
   <div class="container custom-value">
- <h3 class="text-center value-heading3 pb-4 text-light"><b>Our Values</b></h3>
- <div class="d-flex align-items-start justify-content-center">
+ <h3 class="text-center value-heading3 pb-4"><b>Our Values</b></h3>
+ <div class="d-flex align-items-start justify-content-center road-tabs">
   <div class="nav flex-column nav-pills me-3  tab-ver-line" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link custom-nav-link ps-4 active " id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Think Clearly</button>
     <button class="nav-link custom-nav-link ps-4" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false">Be Resourceful</button>
@@ -554,7 +563,7 @@
 </div>
 </div>
 <div class="arrow" style="position: relative;">
-  <a href="#section-8"><div class="arrow-img-value"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  <a href="#section-8" class="scroll-arrow" data-target="#section-8"><div class="arrow-img-value"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
   </div>
 </div>
  </section>
@@ -567,17 +576,9 @@
  <section class="our-team" id="section-8">
   <h3 class="text-center team-heading3"><b>MEET OUR EXECUTIVE TEAM</b></h3>
   <div class="text-center our-team-text">
-  <!-- <h3>One Vision</h3>
-  <h3>One World</h3>
-  <h3>One Platform</h3> -->
-  <!-- <br>
-  <p>Building a world-changing platform is a monumental task. <br>These are the people behind it.</p> -->
-  <!-- <br>
-  <button class="btn third-nav">Explore Careers  <i class="fa fa-arrow-right" aria-hidden="true"></i></button> -->
-  <!-- <h1 class=" pb-5">MEET OUR EXECUTIVE TEAM</h1> -->
    <div class="container team-top-space">
     <div class="row cus-mar align-items-center">
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-md-4 col-sm-6">
         <div class='container box-container'>
           <div class='flip_box2'>
             <div class='front'>
@@ -598,7 +599,7 @@
           </div>
         </div>
     </div>
-    <div class="col-lg-4 col-sm-6">
+    <div class="col-lg-4 col-md-4 col-sm-6">
       <div class='container box-container'>
         <div class='flip_box'>
           <div class='front'>
@@ -620,7 +621,7 @@
         </div>
       </div>
   </div>
-  <div class="col-lg-4 col-sm-6">
+  <div class="col-lg-4 col-md-4 col-sm-6">
     <div class='container box-container'>
       <div class='flip_box1'>
         <div class='front'>
@@ -652,7 +653,9 @@
   <hr class="line"> 
  </div>  -->
  <div class="arrow" style="position: relative;">
-  <a href="#section-9"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
+  <a href="#section-9" class="scroll-arrow" data-target="#section-9">
+    <div class="arrow-img-team"> 
+      <img src="./images/down-chevron.png" alt="" width="35px"></a> 
   </div>
 </div>
 </section>
@@ -661,37 +664,9 @@
 
 
 
+    <!------------------------------ Contact Us ------------------------------------>
 
- <!-- Join Team -->
- <section class="join-team" id="section-9">
-  <div class="row">
-
-    <div class="col-6">
-      <div class="container container-top">
-      <div class="join-team-position">
-        <h3 class="join-heading3"><b>Join Our Team</b></h3>
-      <h2 class="mt-4 join-heading2"><b>Your  ambition  <br>to grow is what
-        sets <br> you apart.</b></h2>
-    <div class="join-team-btn mt-5">
-      <button class="btn third-nav">Explore Careers <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-    </div>
-    </div>
-    </div> 
-    </div>
-
-    <div class="col-6"></div>
-</div>
-<div class="arrow" style="position: relative;">
-  <a href="#section-10"><div class="arrow-img"> <img src="./images/down-chevron.png" alt="" width="35px"></a> 
-  </div>
-</div>
-</section>
-
-
-
-
-    <!-- Contact Us -->
-<section class="contact-bg" id="section-10">
+<section class="contact-bg" id="section-9">
   <div class="contact-heading3 text-center" id="contact"><h2><b>Contact Us</b></h2></div>
   <div id="contact">
     <div class="contact-box">
@@ -762,59 +737,59 @@
                 </div>
               </span>
             </div>
-            <div>
-              <p class="h5 mb-4" style="font-weight: 600">Spotic Coin</p>
+            <div class="footer-heading">
+              <p class="h5 mb-4">Spotic Coin</p>
               <ul class="p-0" style="list-style: none; cursor: pointer">
                 <li class="my-2">
-                  <a class="text-light" href="/">Contact Us</a>
+                  <a class="text-light custom-footer-links" href="/">Contact Us</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">NFT</a>
+                  <a class="text-light custom-footer-links" href="/">NFT</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Prices</a>
+                  <a class="text-light custom-footer-links" href="/">Prices</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Product</a>
+                  <a class="text-light custom-footer-links" href="/">Product</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Company</a>
+                  <a class="text-light custom-footer-links" href="/">Company</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Learn</a>
+                  <a class="text-light custom-footer-links" href="/">Learn</a>
                 </li>
               </ul>
             </div>
-            <div>
-              <p class="h5 mb-4" style="font-weight: 600">Help</p>
+            <div class="footer-heading">
+              <p class="h5 mb-4">Help</p>
               <ul class="p-0" style="list-style: none; cursor: pointer">
                 <li class="my-2">
-                  <a class="text-light" href="/">Support</a>
+                  <a class="text-light custom-footer-links" href="/">Support</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Sign Up</a>
+                  <a class="text-light custom-footer-links" href="/">Sign Up</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Sign In</a>
+                  <a class="text-light custom-footer-links" href="/">Sign In</a>
                 </li>
               </ul>
             </div>
-            <div>
-              <p class="h5 mb-4" style="font-weight: 600">Help</p>
+            <div class="footer-heading">
+              <p class="h5 mb-4">Help</p>
               <ul class="p-0" style="list-style: none; cursor: pointer">
                 <li class="my-2">
-                  <a class="text-light" href="/">Support</a>
+                  <a class="text-light custom-footer-links" href="/">Support</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Sign Up</a>
+                  <a class="text-light custom-footer-links" href="/">Sign Up</a>
                 </li>
                 <li class="my-2">
-                  <a class="text-light" href="/">Sign In</a>
+                  <a class="text-light custom-footer-links" href="/">Sign In</a>
                 </li>
               </ul>
             </div>
           </div>
-          <small class="text-center mt-5">&copy; Spotic Coin, 2020. All rights reserved.</small>
+          <small class="text-center">&copy; Spotic Coin, 2020. All rights reserved.</small>
         </div>
       </footer>
     </div>
@@ -822,6 +797,7 @@
 
 
 
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- seperate-timeline -->
  <script src="https://kit.fontawesome.com/fc596df623.js" crossorigin="anonymous"></script>
@@ -841,20 +817,49 @@
   AOS.init();
 </script>
 
-<script>
-  
-  var showMoreBtn = document.getElementById("showMoreBtn");
-  var moreText = document.getElementById("moreText");
 
-  showMoreBtn.addEventListener("click", function() {
-    moreText.classList.toggle("hidden-text");
-    if (moreText.classList.contains("hidden-text")) {
-      showMoreBtn.textContent = "Load More";
-    } else {
-      showMoreBtn.textContent = "Load Less";
-    }
+<!-- for page scroll to specific height -->
+
+<script>
+// $(document).ready(function() {
+//   $('.scroll-arrow').on('click', function(event) {
+//     event.preventDefault();
+//     var scrollHeight = 600; // Specify the desired scroll height in pixels
+
+//     $('html, body').animate({
+//       scrollTop: scrollHeight
+//     }, 800);
+//   });
+// });
+$(document).ready(function() {
+  $('.scroll-arrow').on('click', function(event) {
+    event.preventDefault();
+    var target = $(this).data('target');
+    var scrollOffset = -100; // Set the desired scroll height within each section
+
+    $('html, body').animate({
+      scrollTop: $(target).offset().top + scrollOffset
+    }, 800);
   });
+});
+
 </script>
+
+<!-- scroll exact on sections -->
+<script>
+  $(document).ready(function() {
+  // Smooth scroll when a scroll-link is clicked
+  $('.scroll-link').on('click', function(event) {
+    event.preventDefault();
+
+    var target = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(target).offset().top
+    }, 800);
+  });
+});
+</script>
+
 
 
  <!-- our team -->
@@ -1155,7 +1160,8 @@ $("#tab4").click(function() {
  <script>
   $(function() {
   
-  var targetDate  = new Date(Date.UTC(2017, 3, 01));
+  // var targetDate  = new Date(Date.UTC(2017, 3, 01));
+  var targetDate  = new Date(Date.UTC(2017, 3, 1));
   var now   = new Date();
 
   window.days = daysBetween(now, targetDate);
