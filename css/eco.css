@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap');
+
+
+html{
+  overflow-x: hidden;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   list-style: none !important;
+   text-decoration: none !important;
+    /* font-family: unset !important; */
+}
+
+
+
+.ecosystem{
+    background-image: url('../images/d2L.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+  }
+  .spotcube{
+    padding-top: 110px;
+    padding-bottom: 110px;
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    width: 90% !important;
+  }
+  .spotcube p{
+    margin: 0;
+    /* padding: 2px; */
+  }
+  .para-space{
+    /* padding-bottom: 10px !important; */   
+    color: var(--para-color);
+    text-align: var(--para-text-align);
+    line-height: var(--para-line-height);
+    letter-spacing: var(--para-letter-spacing);
+    /* font-size: var(--para-font-size); */
+    font-size: 18px;
+    font-family: var(--para-font-family);
+  }
+  .heading-space {
+    color: var(--heading-color);
+    text-shadow: 0 0 22px #0391e4;
+    /* font-size: var(--heading-font-size); */
+    font-size: 28px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family);
+    margin-bottom: 25px;
+}
+  
+  li.list-space{
+       /* padding-bottom: 10px !important; */   
+       color: var(--para-color);
+       text-align: var(--para-text-align);
+       line-height: var(--para-line-height);
+       letter-spacing: var(--para-letter-spacing);
+       /* font-size: var(--para-font-size); */
+       font-size: 18px;
+       font-family: var(--para-font-family);
+  }
+  li.list-space span{
+       /* padding-bottom: 10px !important; */   
+       color: var(--para-color);
+       text-align: var(--para-text-align);
+       line-height: var(--para-line-height);
+       letter-spacing: var(--para-letter-spacing);
+       /* font-size: var(--para-font-size); */
+       font-size: 18px;
+       font-family: var(--para-font-family);
+  }
+  
