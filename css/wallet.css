@@ -1,18 +1,19 @@
-.wallet{
-    background-color: #020484;
-    background-image: url('../images/text-bg.png');
-    background-repeat: no-repeat;
-    height: 280vh;
-    position: relative;
+.wallet {
+  background-image: url(../images/wallet-bg.png);
+  background-repeat: no-repeat;
+  height: 441vh;
+  position: relative;
+  margin-top: 120px;
+  background-position: center;
 }
-.wallet-heading3 h2{
-    color: var(--heading-color);
-    text-shadow: 0 0 22px #0099f1;
-    font-size: 40px !important;
-    text-transform: uppercase;
-    padding-top: 200px;
-    font-family: var(--heading-font-family);
-  }
+.wallet-heading3 h2 {
+  color: var(--heading-color);
+  text-shadow: 0 0 22px #0099f1;
+  font-size: 40px !important;
+  text-transform: uppercase;
+  padding-top: 90px;
+  font-family: var(--heading-font-family);
+}
 
   .wallet-text h3{
     font-family:var(--sub-font-family);
