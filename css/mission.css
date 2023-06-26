@@ -1,0 +1,58 @@
+.mission-page{
+    background-image: url('../images/wallet-bg1.png');
+    background-position: bottom;
+    height: 85vh;
+    background-size: cover; 
+    margin-top: 115px;
+}
+.mission-page-heading3{
+    color:var(--heading-color);
+    text-shadow: 0 0 22px #0391e4;
+    font-size:var(--heading-font-size);
+    padding-top: 90px !important;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family);
+}
+.mission-page-para2{
+    color: var(--para-color);
+    text-align: var(--para-text-align);
+    line-height: var(--para-line-height);
+    letter-spacing: var(--para-letter-spacing);
+    font-size: var(--para-font-size);
+    width: 80%;
+    margin-right: auto;
+    font-family: var(--para-font-family);
+    margin-top: 30px;
+    margin-left: auto;
+}
+.mission-page-list{
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--para-color);
+    text-align: var(--para-text-align);
+    line-height: var(--para-line-height);
+    letter-spacing: var(--para-letter-spacing);
+    font-family: var(--para-font-family);
+    font-size: var(--para-font-size);
+}
+.mission-page-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* width: 83%; */
+    font-family: var(--para-font-family);
+    font-size: var(--para-font-size);
+}
+.mission-thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-fluid-mision{
+    width: 350px;
+}
+.mission-page-list li{
+    padding: 10px 0;
+}

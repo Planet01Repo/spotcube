@@ -399,7 +399,7 @@ backdrop-filter: blur(5.4px);
     background-image: url('../images/d2L.png');
     background-position: center;
     height: 85vh;
-    background-size: cover;  
+    background-size: cover;
 }
 .vision-heading1{
     font-size: 70px;
@@ -2220,7 +2220,7 @@ height: 200px;
     background-image: url('../images/d2L.png');
     background-position: center;
     background-size: cover;  
-    height: 39vh; 
+    /* height: 39vh;  */
   }
   a.text-light.custom-footer-links{
     color: #fff;
@@ -2636,9 +2636,9 @@ button.btn.third1 {
 }
 
 /* footer */
-.footer {
-  height: 48vh;
-}
+/* .footer {
+  height: auto;
+} */
 .footer-text span {
   font-size: 25px;
 }
@@ -2899,9 +2899,9 @@ ul.list-bullets {
 }
 
 /* footer */
-.footer {
+/* .footer {
   height: 45vh;
-}
+} */
 .footer-text span {
   font-size: 25px;
 }
@@ -3258,9 +3258,9 @@ ul.navbar-nav.nav-links.mb-2.mb-lg-0.custom-margin.align-items-center {
 
 
 /* footer */
-.footer {
+/* .footer {
   height: 45vh;
-}
+} */
 .footer-text span {
   font-size: 25px;
 }
@@ -3581,9 +3581,9 @@ button.navbar-toggler.colapse-btn.menu-bar {
 
 
 /* footer */
-.footer {
+/* .footer {
   height: 45vh;
-}
+} */
 .footer-text span {
   font-size: 25px;
 }
@@ -3978,9 +3978,9 @@ button.btn.third-nav {
   
   
   /* footer */
-  .footer {
+  /* .footer {
     height: 45vh;
-  }
+  } */
   .footer-text span {
     font-size: 25px;
   }
