@@ -194,19 +194,18 @@ opacity: 0.6;
 .custom-margin a.link-spacing:hover{
   opacity: 1;
 }
-
 a.dropdown-custom{
   font-family:'Harabara-Mais-light'!important;
+  color: #fff;
 }
-
+.dropdown-custom:focus, .dropdown-custom:hover {
+  color: #ffffff !important;
+  background-color: #25a5f1 !important;
+}
 .font-change{
   font-family:'Harabara-Mais'!important;
   font-size: 17px;
 }
-
-
-
-
   /*------------------ timmer----------------*/
 .card.wrapper {
 border: 0;
