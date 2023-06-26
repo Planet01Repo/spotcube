@@ -2411,11 +2411,71 @@ button.btn.third1 {
 
 
 /*======================= Media Querry ==========================*/
+@media screen and (max-width: 2560px){
+  .our-vision {
+    height: 92vh !important;
+}
+.our-mission {
+  height: 85vh !important;
+}
+.how-to-buy {
+  height: 95vh !important;
+}
+.cardPlayToEarn {  
+  height: 620px !important;
+}
+.solution-bg {
+  height: 112vh !important;
+}
+.first-img {
+  top: -109px;
+  left: -65px;
+}
+.first-heading h3 {
+  top: 80px;
+  left: 5px;
+}
+ul.list-bullets {
+  display: unset !important;
+}
+.third-img {
+  bottom: -80px;
+  right: 20px;
+}
+.fifth-img {
+  top: -66px;
+  right: 40px;
+}
+.sec-img {
+  top: 237px;
+  left: 104px;
+}
+.forth-img {
+  top: 210px;
+  right: 35px;
+}
+.sixth-img {
+  top: 196px;
+  right: 40px;
+}
+.why-matter {
+  height: 44vh !important;
+}
+.our-values {
+  height: 74vh !important;
+}
+.our-team {
+  height: 75vh !important;
+}
+.contact-bg {
+  height: 80vh !important;
+}
+}
 
 @media screen and (max-width: 1980px){
   /* main section */
   .custom-width {
-    height: 68vh;
+    height: 68vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2426,7 +2486,7 @@ button.btn.third1 {
 
 /* second section vision */
   .our-vision {
-    height: 90vh;
+    height: 105vh !important;
 }
   .vision-heading3 {
     font-size: 28px !important;
@@ -2453,6 +2513,9 @@ button.btn.third1 {
 }
 
 /* Third Section Mission */
+.our-mission {
+  height: 88vh !important;
+}
 .mission-heading3 {
   padding-top: 60px !important;
   font-size: 28px !important;
@@ -2466,7 +2529,7 @@ button.btn.third1 {
 
 /* forth Seection */
 .how-to-buy {
-  height: 95vh;
+  height: 110vh !important;
 }
 .buy-customize {
   font-size: 28px;
@@ -2498,7 +2561,7 @@ button.btn.third1 {
 
 /* Fifth Section Solution */
 .solution-bg {
-  height: 120vh;
+  height: 138vh !important;
 }
 .solution-heading2 h1{
   font-size: 28px !important;
@@ -2510,38 +2573,54 @@ button.btn.third1 {
 .solotion-btn {
   margin-top: 140px;
 }
+ul.list-bullets {
+  display: unset;
+}
+.first-heading h3 {
+  position: absolute;
+  top: 80px;
+  left: 6px;
+  font-family: var(--sub-font-family);
+  font-size: 30px;
+}
 .first-img img{
  width: 200px;
 }
 .first-img {
   top: -72px;
+  left: -55px;
 }
 .third-img img{
   width: 200px;
 }
 .third-img {
-  bottom: -43px;
+  bottom: -70px;
+  right: 94px;
 }
 .fifth-img img{
   width: 200px;
 }
 .fifth-img {
-  top: -45px;
-  right: -10px;
+  top: -40px;
+  right: 100px;
 }
 .forth-img img {
   width: 200px;
 }
 .forth-img {
-  top: 189px;
-  right: -30px;
+  top: 215px;
+  right: 98px;
 }
 .sixth-img img{
   width: 200px;
 }
 .sixth-img {
-  top: 186px;
-  right: -15px;
+  top: 225px;
+  right: 88px;
+}
+.sec-img {
+  top: 233px;
+  left: 121px;
 }
 .sec-img img{
   width: 200px;
@@ -2553,7 +2632,7 @@ button.btn.third1 {
 /* Section Six Eco */
 .why-matter {
   padding-top: 60px;
-  height: 45vh;
+  height: 52vh !important;
 }
 .matter-heading3 {
   font-size: 28px;
@@ -2577,6 +2656,12 @@ button.btn.third1 {
 .road-map-heading3 h3 {
   font-size: 28px;
 }
+.arrow-img-road {
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 /* Section Eight - Values */
 .custom-value {
@@ -2592,7 +2677,7 @@ button.btn.third1 {
   top: -60px;
 }
 .our-values {
-  height: 65vh;
+  height: 74vh !important;
 }
 .tab-text {
   font-size: 18px;
@@ -2600,7 +2685,7 @@ button.btn.third1 {
 
 /* Section Eight Team */
 .our-team {
-  height: 80vh;
+  height: 92vh !important;
 }
 .team-heading3 {
   font-size: 28px;
@@ -2621,7 +2706,7 @@ button.btn.third1 {
 
 /* Section Nine Contact */
 .contact-bg {
-  height: 80vh;
+  height: 95vh !important;
 }
 .contact-heading3 h2 {
   font-size: 28px !important;
@@ -2662,19 +2747,22 @@ a.text-light.custom-footer-links {
 @media screen and (max-width: 1440px){
   /* main section */
   .custom-width {
-    height: 68vh;
+    height: 68vh !important;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  .btn-style1{
+.btn-style1{
+  margin-top: 30px !important;
+}
+  /* .btn-style1{
     padding-top: 33px;
     padding-bottom: 20px;
-}
+} */
 
 /* second section vision */
-  .our-vision {
-    height: 90vh;
+.our-vision {
+  height: 118vh !important;
 }
   .vision-heading3 {
     font-size: 28px !important;
@@ -2701,6 +2789,9 @@ a.text-light.custom-footer-links {
 }
 
 /* Third Section Mission */
+.our-mission {
+  height: 92vh !important;
+}
 .mission-heading3 {
   padding-top: 60px !important;
   font-size: 28px !important;
@@ -2714,7 +2805,7 @@ a.text-light.custom-footer-links {
 
 /* forth Seection */
 .how-to-buy {
-  height: 95vh;
+  height: 125vh !important;
 }
 .buy-customize {
   font-size: 28px;
@@ -2725,8 +2816,8 @@ a.text-light.custom-footer-links {
   margin-top: 25px;
 }
 .cardPlayToEarn {
-  padding: 14px 14px;
-  height: 500px;
+  padding: 20px 26px !important;
+  height: 510px !important;
 }
 .cardPlayToEarn h4 {
   font-size: 25px;
@@ -2735,7 +2826,7 @@ a.text-light.custom-footer-links {
 }
 .cardPlayToEarn p {
   font-size: 17px;
-  margin-top: 18px;
+  margin-top: 8px !important;
 }
 .mission-btn {
   padding-top: 0px;
@@ -2746,14 +2837,18 @@ a.text-light.custom-footer-links {
 
 /* Fifth Section Solution */
 .solution-bg {
-  height: 120vh;
+  height: 158vh !important;
 }
 .solution-heading2 h1{
   font-size: 28px !important;
   padding-top: 60px;
 }
-.custom-solution {
+/* .custom-solution {
   margin-top: 50px;
+} */
+.custom-solution {
+  /* width: 86%; */
+  padding-left: 110px !important;
 }
 .solotion-btn {
   margin-top: 140px;
@@ -2783,7 +2878,7 @@ a.text-light.custom-footer-links {
 }
 .forth-img {
   top: 214px;
-  right: 106px;
+  right: 82px;
 }
 .sixth-img img{
   width: 200px;
@@ -2816,7 +2911,7 @@ ul.list-bullets {
 /* Section Six Eco */
 .why-matter {
   padding-top: 60px;
-  height: 45vh;
+  height: 59vh !important;
 }
 .matter-heading3 {
   font-size: 28px;
@@ -2855,7 +2950,7 @@ ul.list-bullets {
   top: -60px;
 }
 .our-values {
-  height: 65vh;
+  height: 83vh !important;
 }
 .tab-text {
   font-size: 18px;
@@ -2863,7 +2958,7 @@ ul.list-bullets {
 
 /* Section Eight Team */
 .our-team {
-  height: 80vh;
+  height: 103vh !important;
 }
 .team-heading3 {
   font-size: 28px;
@@ -2884,7 +2979,7 @@ ul.list-bullets {
 
 /* Section Nine Contact */
 .contact-bg {
-  height: 80vh;
+  height: 105vh !important;
 }
 .contact-heading3 h2 {
   font-size: 28px !important;
