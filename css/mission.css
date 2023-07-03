@@ -1,7 +1,7 @@
 .mission-page{
     background-image: url('../images/wallet-bg1.png');
     background-position: bottom;
-    height: 85vh;
+    height: 62vh;
     background-size: cover; 
     margin-top: 115px;
 }
@@ -18,7 +18,7 @@
     text-align: var(--para-text-align);
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
-    font-size: var(--para-font-size);
+    font-size: 18px;
     width: 80%;
     margin-right: auto;
     font-family: var(--para-font-family);
@@ -30,11 +30,11 @@
     margin-left: auto;
     margin-right: auto;
     color: var(--para-color);
-    text-align: var(--para-text-align);
+    /* text-align: var(--para-text-align); */
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
     font-family: var(--para-font-family);
-    font-size: var(--para-font-size);
+    font-size: 18px;
 }
 .mission-page-custom {
     display: flex;
@@ -51,7 +51,7 @@
     align-items: center;
 }
 .img-fluid-mision{
-    width: 350px;
+    width: 260px;
 }
 .mission-page-list li{
     padding: 10px 0;

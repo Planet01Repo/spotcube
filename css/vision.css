@@ -2,7 +2,7 @@
 .vission-page{
     background-image: url('../images/wallet-bg1.png');
     background-position: center;
-    /* height: 185vh; */
+    height: 130vh;
     background-size: cover; 
     margin-top: 115px;
 }
@@ -16,10 +16,10 @@
 }
 .vision-page-para2{
     color: var(--para-color);
-    text-align: var(--para-text-align);
+    /* text-align: var(--para-text-align); */
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
-    font-size: var(--para-font-size);
+    font-size: 18px;
     width: 80%;
     margin-right: auto;
     font-family: var(--para-font-family);
@@ -34,6 +34,7 @@
   .custom-vision-card{
     width: 80%;
   }
+
   
   /* .card */
   .card-custom-height {
@@ -41,14 +42,16 @@
     box-shadow: 0 0 7px 0 #0391e4 inset, 0 0 2px 3px #0391e4;
     background-color: #000470 !important;
 }
-.vision-page-para-card{
+.vision-page-para-card {
     color: var(--para-color);
-    text-align: var(--para-text-align);
     line-height: var(--para-line-height);
-    /* letter-spacing: var(--para-letter-spacing); */
-    font-size: var(--para-font-size);
+    letter-spacing: var(--para-letter-spacing);
     font-family: var(--para-font-family);
     padding: 30px 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
 }
 .custom-vision-card-width{
     margin-left: auto;
@@ -63,10 +66,10 @@
 
 .vision-page-para1{
     color: var(--para-color);
-    text-align: var(--para-text-align);
+    /* text-align: var(--para-text-align); */
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
-    font-size: var(--para-font-size);
+    font-size: 18px;
     font-family: var(--para-font-family);
     margin-top: 30px;
 }
