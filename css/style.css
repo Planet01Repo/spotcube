@@ -3863,6 +3863,27 @@ a.text-light.custom-footer-links {
 .tab-text {
   font-size: 13px!important;
 }
+.eco-btn {
+  display: flex;
+  justify-content: center;
+}
+.whymatter-row{
+  padding-top: 40px !important;
+}
+.third-img {
+  right: 258px !important;
+}
+.forth-img {
+  right: 262px !important;
+}
+.fifth-img {
+  top: 134px!important;
+  right: 302px!important;
+}
+.sixth-img {
+  top: 334px!important;
+  left: -101px!important;
+}
 }
 
 
