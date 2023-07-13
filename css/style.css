@@ -120,7 +120,7 @@ body{
 } */
 
 #navbar-color{
-  height: 90px;
+  height: 120px;
   position: fixed;
   width: 100%;
   background-color: #000278 !important;
@@ -527,7 +527,7 @@ backdrop-filter: blur(5.4px);
   display: flex;
     justify-content: center;
     align-items: center;
-    height: 53vh !important;
+    /* height: 53vh !important; */
 }
 .mission-heading2{
  display: flex;
@@ -1016,9 +1016,9 @@ right: -27px !important;
   .solution-bg{
     padding-top:10px !important;
   }
-  .first-img img{
+  /* .first-img img{
     width: 150px !important;
-  }
+  } */
   .sec-img img{
     width: 150px !important;
   }
@@ -3693,9 +3693,9 @@ button.btn.third-nav {
   
   
   /* Section Nine Contact */
-  .contact-bg {
+  /* .contact-bg {
     height: 125vh!important;
-}
+} */
   .contact-heading3 h2 {
     padding-top: 50px!important;
     font-size: 28px !important;
@@ -3888,6 +3888,12 @@ a.text-light.custom-footer-links {
 
 
 @media screen and (max-width: 375px){
+  button.navbar-toggler.colapse-btn.menu-bar {
+    right: 48px !important;
+}
+.navbar-dark .navbar-toggler-icon {
+  width: 22px !important;
+}
   .center-image {
     width: 318px !important;
 }
@@ -3903,10 +3909,10 @@ a.text-light.custom-footer-links {
   padding-top: 12px !important;
 }
 .first-img img {
-  width: 140px !important;
+  width: 125px !important;
 }
 .sec-img img {
-  width: 120px !important;
+  width: 125px !important;
 }
 .third-img img {
   width: 125px !important;
@@ -3982,7 +3988,6 @@ button.btn.third-nav {
 .whymatter-img {
   padding-top: 30px !important;
 }
-
 }
 
 

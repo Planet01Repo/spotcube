@@ -1,9 +1,7 @@
 .wallet {
   background-image: url(../images/wallet-bg.png);
-  background-repeat: no-repeat;
-  height: 441vh;
   position: relative;
-  margin-top: 90px;
+  padding-top: 120px;
   background-position: center;
 }
 .wallet-heading3 h2 {
@@ -13,6 +11,9 @@
   text-transform: uppercase;
   padding-top: 90px;
   font-family: var(--heading-font-family);
+}
+.wallet_custom{
+  padding-bottom: 90px;
 }
 
   .wallet-text h3{
@@ -69,6 +70,15 @@ width: 400px;
 }
 .side-img2 img {
   width: 515px;
+}
+
+
+@media screen and (max-width: 1199px){
+  button.navbar-toggler.colapse-btn{
+    position: absolute;
+    right: 153px !important;
+    top: 40px !important;
+  }
 }
 
 

@@ -2,9 +2,10 @@
 .vission-page{
     background-image: url('../images/wallet-bg1.png');
     background-position: center;
-    height: 130vh;
+    /* height: 130vh; */
     background-size: cover; 
-    margin-top: 115px;
+    /* margin-top: 115px; */
+    padding-top: 120px !important;
 }
 .vision-page-heading3{
     color:var(--heading-color);
@@ -99,6 +100,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1199px){
+    button.navbar-toggler.colapse-btn{
+      position: absolute;
+      right: 153px !important;
+      top: 40px !important;
+    }
 }
 
   
