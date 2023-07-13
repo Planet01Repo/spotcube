@@ -1,15 +1,15 @@
 .mission-page{
     background-image: url('../images/wallet-bg1.png');
     background-position: bottom;
-    height: 62vh;
+    /* height: 62vh; */
     background-size: cover; 
-    margin-top: 115px;
+    /* margin-top: 115px; */
 }
 .mission-page-heading3{
     color:var(--heading-color);
     text-shadow: 0 0 22px #0391e4;
     font-size:var(--heading-font-size);
-    padding-top: 90px !important;
+    padding-top: 180px !important;
     text-transform: uppercase;
     font-family: var(--heading-font-family);
 }
@@ -34,14 +34,19 @@
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
     font-family: var(--para-font-family);
+    padding-bottom: 90px !important;
+
     font-size: 18px;
 }
 .mission-page-custom {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     margin: auto;
     /* width: 83%; */
+    display: flex;
+    /* justify-content: end; */
+    align-items: flex-start;
     font-family: var(--para-font-family);
     font-size: var(--para-font-size);
 }
@@ -56,3 +61,27 @@
 .mission-page-list li{
     padding: 10px 0;
 }
+
+@media screen and (max-width: 1199px){
+    button.navbar-toggler.colapse-btn{
+      position: absolute;
+      right: 153px !important;
+      top: 40px !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .row.mission-page-custom {
+        display: flex;
+    align-items: flex-start;
+}
+.mission-thumbnail {
+    display: flex;
+    justify-content: center;
+}
+}
+
+
+
+
+

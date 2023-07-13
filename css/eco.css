@@ -75,4 +75,12 @@ body{
        font-size: 18px;
        font-family: var(--para-font-family);
   }
+
+  @media screen and (max-width: 1199px){
+    button.navbar-toggler.colapse-btn{
+      position: absolute;
+      right: 153px !important;
+      top: 40px !important;
+    }
+}
   
