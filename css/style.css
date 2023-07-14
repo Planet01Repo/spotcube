@@ -2514,7 +2514,7 @@ display: none !important;
   a.navbar-brand.nav-logo {
       position: absolute;
       top: 37px;
-      left: 65px;
+      left: 105px;
 }
  .navbar-nav {
   font-size: 16px;
@@ -2939,7 +2939,11 @@ a.text-light.custom-footer-links {
     right: 78px;
     top: 40px;
 }
-
+a.navbar-brand.nav-logo {
+  position: absolute;
+  top: 37px;
+  left: 120px;
+}
 /* main section */
 .vision-heading1 {
  font-size: 53px;
@@ -3243,12 +3247,16 @@ a.text-light.custom-footer-links {
 @media screen and (max-width: 767px){
 
   /* collapsable navbar */
-  button.navbar-toggler.colapse-btn.menu-bar{
+  /* button.navbar-toggler.colapse-btn.menu-bar{
     position: absolute;
     right: 70px !important;
     top: 40px !important;
-  }
-
+  } */
+  button.navbar-toggler.colapse-btn {
+    position: absolute;
+    right: 120px !important;
+    top: 40px !important;
+}
   /* main section */
   .vision-heading1 {
     font-size: 40px !important;
@@ -3435,27 +3443,29 @@ button.btn.third-nav {
     width: 155px !important;
   }
   .third-img {
-    top: 165px!important;
-  }
+    bottom: 36px !important;
+    right: 269px !important;
+}
   .fifth-img img{
     width: 155px !important;
   }
   .fifth-img {
-    top: 134px!important;
-    right: 50px!important;
+    top: 100px!important;
+    right: 340px!important;
 }
   .forth-img img {
     width: 155px !important;
   }
   .forth-img {
-    top: 173px!important;
-  }
+    top: 186px !important;
+    right: 280px !important;
+}
   .sixth-img img{
     width: 155px !important;
   }
   .sixth-img {
-    top: 334px!important;
-    left: 124px!important;
+    top: 310px !important;
+    right: 341px !important;
 }
   .sec-img img{
     width: 155px !important;
@@ -3464,10 +3474,41 @@ button.btn.third-nav {
     top: 40px!important;
   }
   .solotion-btn {
-    margin-top: 16px!important;
+    margin-top: 70px!important;
   }
   .arrow-img-sol img {
     width: 25px!important;
+}
+#first {
+  order: 1 !important;
+  margin-top: 55px !important;
+  left: 30% !important;
+}
+#four {
+  order: 2 !important;
+  margin-top: 55px !important;
+  left: 30% !important;
+}
+#second {
+  order: 3 !important;
+  margin-top: 55px !important;
+  left: 30% !important;
+}
+#five {
+  order: 4 !important;
+  margin-top: 55px !important;
+  left: 30% !important;
+}
+#six {
+  order: 6 !important;
+  margin-top: -86px !important;
+  left: 30% !important;
+}
+#third {
+  order: 5 !important;
+  margin-top: 55px !important;
+  left: 30% !important;
+    padding-top: 110px !important;
 }
   
   
@@ -3738,11 +3779,19 @@ button.btn.third-nav {
   .center-image {
     width: 340px !important;
 }
+a.navbar-brand.nav-logo {
+  position: absolute;
+  top: 37px;
+  left: 46px;
+}
+button.navbar-toggler.colapse-btn {
+  right: 55px !important;
+}
 #first{
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 122px;
+  top: 122px !important;
 }
 #first ul {
   display: unset !important;
@@ -3752,13 +3801,13 @@ button.btn.third-nav {
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 122px;
+  top: 86px !important;
 }
 #second{
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 200px !important;
+  top: 110px !important;
 }
 .third-img {
   right: 129px !important;
@@ -3767,7 +3816,7 @@ button.btn.third-nav {
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 245px !important;
+  top: 165px !important;
 }
 .forth-img {
   right: 129px !important;
@@ -3776,7 +3825,7 @@ button.btn.third-nav {
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 245px !important;
+  top: 200px !important;
 }
 .fifth-img {
     top: 134px!important;
@@ -3786,14 +3835,14 @@ button.btn.third-nav {
   position: relative;
   left: 40%;
   transform: translate(-50px, -50px);
-  top: 95px !important;
+  top: 155px !important;
 }
 .sixth-img {
   top: 334px!important;
-  left: 4px!important;
+  left: 140px!important;
 }
 .solotion-btn {
-  margin-top: 155px!important;
+  margin-top: 218px!important;
 }
 .road-map .item-list{
   display: none!important;
@@ -3880,10 +3929,10 @@ a.text-light.custom-footer-links {
   top: 134px!important;
   right: 302px!important;
 }
-.sixth-img {
+/* .sixth-img {
   top: 334px!important;
   left: -101px!important;
-}
+} */
 }
 
 
@@ -3893,6 +3942,17 @@ a.text-light.custom-footer-links {
 }
 .navbar-dark .navbar-toggler-icon {
   width: 22px !important;
+}
+a.navbar-brand.nav-logo {
+  position: absolute;
+  top: 37px;
+  left: 30px;
+}
+button.navbar-toggler.colapse-btn {
+  right: 40px !important;
+}
+.our-header {
+  padding-top: 58px !important;
 }
   .center-image {
     width: 318px !important;
@@ -3907,6 +3967,21 @@ a.text-light.custom-footer-links {
 }
 .mission-btn {
   padding-top: 12px !important;
+}
+.third-img {
+  right: 110px !important;
+}
+#five {
+  position: relative;
+  left: 30%;
+  transform: translate(-50px, -50px);
+  top: 150px !important;
+}
+#third {
+  position: relative;
+  left: 30%;
+  transform: translate(-50px, -50px);
+  top: 140px !important;
 }
 .first-img img {
   width: 125px !important;
@@ -3941,23 +4016,37 @@ a.text-light.custom-footer-links {
 #third ul li {
   font-size: 13px !important;
 }
-#third {
-  left: 30% !important;
-}
 #six {
-  left: 30% !important;
+  position: relative;
+  left: 30%;
+  transform: translate(-50px, -50px);
+  top: 100px !important;
 }
 #five {
   left: 30% !important;
 }
 #second {
+  position: relative;
   left: 30% !important;
+  transform: translate(-50px, -50px);
+  top: 110px !important;
 }
 #four {
   left: 30% !important;
 }
 #first {
   left: 30% !important;
+}
+.forth-img {
+  right: 120px !important;
+}
+.sixth-img {
+  top: 334px!important;
+  left: 115px!important;
+}
+.fifth-img {
+  top: 134px!important;
+  right: 150px!important;
 }
 .contact-para {
   font-size: 13px!important;
@@ -3987,6 +4076,12 @@ button.btn.third-nav {
 }
 .whymatter-img {
   padding-top: 30px !important;
+}
+.solotion-btn {
+  margin-top: 178px!important;
+}
+.contact-bg {
+  padding-bottom: 54px !important;
 }
 }
 
