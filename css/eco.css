@@ -82,5 +82,62 @@ body{
       right: 153px !important;
       top: 40px !important;
     }
+    a.navbar-brand.nav-logo {
+      left: 110px;
+  }
+  .heading-space {
+    font-size: 40px !important;
+}
+.para-space {
+  font-size: 17px !important;
+}
+li.list-space {
+  font-size: 17px !important;
+}
+}
+
+@media screen and (max-width: 991px){
+  .heading-space {
+    font-size: 35px !important;
+}
+a.navbar-brand.nav-logo {
+  left: 125px;
+}
+button.navbar-toggler.colapse-btn {
+  right: 130px !important;
+}
+}
+
+@media screen and (max-width: 767px){
+  .heading-space {
+    font-size: 28px !important;
+}
+.para-space {
+  font-size: 16px !important;
+}
+li.list-space {
+  font-size: 16px !important;
+}
+button.navbar-toggler.colapse-btn {
+  right: 65px !important;
+}
+
+}
+@media screen and (max-width: 375px){
+  .heading-space {
+    font-size: 28px !important;
+}
+.para-space {
+  font-size: 14px !important;
+}
+li.list-space {
+  font-size: 14px !important;
+}
+a.navbar-brand.nav-logo {
+  left: 25px !important;
+}
+button.navbar-toggler.colapse-btn {
+  right: 40px !important;
+}
 }
   

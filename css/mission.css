@@ -68,18 +68,51 @@
       right: 153px !important;
       top: 40px !important;
     }
-}
-
-@media screen and (max-width: 991px){
     .row.mission-page-custom {
         display: flex;
     align-items: flex-start;
 }
-.mission-thumbnail {
-    display: flex;
-    justify-content: center;
+.mission-page-heading3{
+    font-size: 35px !important;
+}
+.mission-page-para2{
+    font-size: 17px !important;
 }
 }
+
+
+
+@media screen and (max-width: 991px){
+   
+.mission-page-heading3{
+    font-size: 28px !important;
+}
+.mission-page-para2{
+    font-size: 16px !important;
+}
+.mission-page-list{
+    font-size: 16px !important;
+}
+}
+
+
+
+        
+    @media screen and (max-width: 375px){
+   
+        .mission-page-heading3{
+            font-size: 28px !important;
+        }
+        .mission-page-para2{
+            font-size: 14px !important;
+        }
+        .mission-page-list{
+            font-size: 14px !important;
+        }
+        .img-fluid-mision {
+            width: 230px !important;
+        }
+        }
 
 
 

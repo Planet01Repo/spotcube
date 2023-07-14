@@ -17,7 +17,7 @@
 }
 .vision-page-para2{
     color: var(--para-color);
-    /* text-align: var(--para-text-align); */
+    text-align: var(--para-text-align);
     line-height: var(--para-line-height);
     letter-spacing: var(--para-letter-spacing);
     font-size: 18px;
@@ -108,7 +108,125 @@
       right: 153px !important;
       top: 40px !important;
     }
+    .vision-page-heading3{
+        font-size: 35px !important;
+    }
+    .vision-page-para2{
+        font-size: 17px !important;
+    }
+    ul.navbar-nav.mb-2.mb-lg-0.custom-margin.align-items-center {
+        margin-top: 100px !important;
+        background-color: #000278eb !important;
+    }
 }
+
+
+@media screen and (max-width: 991px){
+    .vision-page-heading3{
+        font-size: 28px !important;
+    }
+    .vision-page-para2{
+        font-size: 16px !important;
+    }
+    .vision-page-para1{
+        font-size: 16px !important;
+    }
+    .vision-page-para-card{
+        text-align: justify !important;
+    }
+    a.navbar-brand.nav-logo {
+        position: absolute;
+        top: 37px !important;
+        left: 90px !important;
+    }
+    button.navbar-toggler.colapse-btn {
+        position: absolute;
+        right: 120px !important;
+        top: 40px !important;
+    }
+    }
+
+    @media screen and (max-width: 767px){
+        .vision-page-para-card{
+            font-size: 15px !important;
+        }
+        .img-fluid {
+            width: 250px !important;
+        }
+        /* a.navbar-brand.nav-logo {
+            position: absolute;
+            top: 37px !important;
+            left: 75px !important;
+        }
+        button.navbar-toggler.colapse-btn {
+            position: absolute;
+            right: 100px !important;
+            top: 40px !important;
+        } */
+    }
+
+    @media screen and (max-width: 576px){
+    button.navbar-toggler.colapse-btn {
+        right: 79px !important;
+    }
+    .vision-page-para1{
+        text-align: justify !important;
+    }
+    .vision-page-para2{
+        text-align: justify !important;
+    }
+    .img-fluid {
+        width: 220px !important;
+    }
+   
+    a.navbar-brand.nav-logo {
+        position: absolute;
+        top: 37px !important;
+        left: 50px !important;
+    }
+    button.navbar-toggler.colapse-btn {
+        right: 60px !important;
+    }
+}
+    
+            
+        @media screen and (max-width: 375px){
+            .navbar-dark .navbar-toggler-icon {
+                width: 20px !important;
+            }
+            .vision-page-heading3{
+                font-size: 28px !important;
+                padding-top: 50px !important;
+            }
+            .vision-page-para2{
+                font-size: 14px !important;
+            }
+            .vision-page-para1{
+                font-size: 14px !important;
+        
+            }
+            .vision-page-para-card{
+                text-align: justify !important;
+            font-size: 12px !important;
+            padding: 15px 5px !important;
+
+            }
+            button.navbar-toggler.colapse-btn {
+                right: 53px !important;
+            }
+            a.navbar-brand.nav-logo {
+                left: 31px !important;
+            }
+            .img-fluid {
+                width: 200px !important;
+            }
+            .card-custom-height {
+                width: 89%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            }
+    
 
   
   

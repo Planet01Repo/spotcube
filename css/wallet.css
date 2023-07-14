@@ -15,6 +15,9 @@
 .wallet_custom{
   padding-bottom: 90px;
 }
+.wallet-img1 {
+  padding-bottom: 20px;
+}
 
   .wallet-text h3{
     font-family:var(--sub-font-family);
@@ -79,7 +82,131 @@ width: 400px;
     right: 153px !important;
     top: 40px !important;
   }
+  .wallet-heading3 h2{
+    font-size: 35px !important;
+  }
+  .wallet-text p{
+    font-size: 17px !important;
+  }
+  .wallet-img1 img{
+      width: 680px !important;
+      padding-bottom: 30px !important;
+      padding-top: 10px !important;
+  }
+  ul.navbar-nav.mb-2.mb-lg-0.custom-margin.align-items-center {
+    margin-top: 100px !important;
+    background-color: #000278eb !important;
 }
+  .nav-links {
+    width: 100%;
+    height: 60vh !important;
+    justify-content: center !important;
+    background-color: #000278eb !important;
+    top: 20px !important;
+}
+  }
+
+  @media screen and (max-width: 991px){
+    .wallet-heading3 h2{
+      font-size: 28px !important;
+    }
+    .wallet-text p{
+      font-size: 16px !important;
+    }
+    .wallet-img1 img{
+        width: 650px !important;
+        padding-bottom: 30px !important;
+        padding-top: 10px !important;
+    }
+    .wallet_custom {
+      padding-bottom: 55px !important;
+  }
+    }
+
+  
+  @media screen and (max-width: 767px){
+  .wallet-img1 img {
+      width: 510px !important;
+      padding-bottom: 30px !important;
+      padding-top: 10px !important;
+  }
+  .wallet-heading3 h2 {
+    padding-top: 70px !important;
+}
+button.navbar-toggler.colapse-btn {
+  right: 130px !important;
+}
+
+.wallet-text h3 {
+    font-size: 25px !important;
+   
+}
+li.list-wallet {
+  font-size: 16px !important;
+}
+.wallet-text p{
+  font-size: 16px !important;
+}
+a.navbar-brand.nav-logo {
+  left: 107px !important;
+}
+}
+
+  
+@media screen and (max-width: 576px){
+  .wallet-img1 img {
+      width: 510px !important;
+      padding-bottom: 30px !important;
+      padding-top: 10px !important;
+  }
+  button.navbar-toggler.colapse-btn {
+    right: 55px !important;
+}
+.wallet-heading3 h2 {
+  padding-top: 60px !important;
+}
+
+.wallet-text h3 {
+    font-size: 25px !important;
+}
+li.list-wallet {
+  font-size: 16px !important;
+}
+.wallet-text p{
+  font-size: 14px !important;
+}
+a.navbar-brand.nav-logo {
+  left: 30px !important;
+}
+}
+@media screen and (max-width: 375px){
+  .wallet-heading3 h2{
+    font-size: 25px !important;
+    padding-top: 40px;
+  }
+  .wallet-text h3 {
+    font-size: 20px !important;
+}
+li.list-wallet {
+  font-size: 14px !important;
+}
+.wallet-heading3 h2 {
+  padding-top: 70px;
+}
+.wallet-img1 img {
+  width: 350px !important;
+}
+button.navbar-toggler.colapse-btn {
+  right: 30px !important;
+}
+.wallet-img1 img {
+  padding-top: 10px !important;
+}
+.wallet-img1  {
+  padding-bottom: 0px !important;
+}
+}
+
 
 
   /*
